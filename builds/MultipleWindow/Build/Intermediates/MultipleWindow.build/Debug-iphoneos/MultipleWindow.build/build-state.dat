@@ -1,671 +1,0 @@
-TMultipleWindow
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist
-cProcessPCH /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch MultipleWindow/MultipleWindow-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow normal arm64
-cCompileXIB /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib
-cCopyStringsFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings MultipleWindow/en.lproj/InfoPlist.strings
-cCompileStoryboard /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard
-cCompileAssetCatalog /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets
-cProcessInfoPlistFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist
-cGenerateDSYMFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow
-cProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision
-cTouch /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent
-cCodeSign /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000525642EE0000000000000110
-t1381384942
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c0000000052F297040000000000000094
-t1391630084
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c0000000052F297040000000000000096
-t1391630084
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052F29704000000000000036B
-t1391630084
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052F2970400000000000001A0
-t1391630084
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000052F297050000000000630EB0
-t1391630085
-s6491824
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000052F29705000000000079BFE0
-t1391630085
-s7978976
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000052F2970500000000004D63C0
-t1391630085
-s5071808
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c0000000052F29705000000000042AB80
-t1391630085
-s4369280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c0000000052F2970500000000003062A0
-t1391630085
-s3170976
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c0000000052F29705000000000006F7F0
-t1391630085
-s456688
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000052F297060000000000A92BC0
-t1391630086
-s11086784
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c0000000052F297060000000000046ED0
-t1391630086
-s290512
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000052F297060000000000640E80
-t1391630086
-s6557312
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-c0000000052F29706000000000017E0C0
-t1391630086
-s1564864
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000052F2970900000000025A5AC0
-t1391630089
-s39475904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c0000000052F2970B0000000000387B30
-t1391630091
-s3701552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-c0000000052F2970D000000000001D2B0
-t1391630093
-s119472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-c0000000052F2970D000000000054C820
-t1391630093
-s5556256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-c0000000052F2970D0000000000028490
-t1391630093
-s165008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-c0000000052F2970D00000000000472B0
-t1391630093
-s291504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-c0000000052F2970D000000000003EB80
-t1391630093
-s256896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-c0000000052F2970D000000000002AEE0
-t1391630093
-s175840
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-c0000000052F2970D00000000000E2F20
-t1391630093
-s929568
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-c0000000052F2970D00000000000A1FC0
-t1391630093
-s663488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-c0000000052F2970D000000000001E8A0
-t1391630093
-s125088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-c0000000052F2970D0000000000034100
-t1391630093
-s213248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-c0000000052F2970D0000000000022F30
-t1391630093
-s143152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-c0000000052F2970D000000000001D1B0
-t1391630093
-s119216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-c0000000052F2970D0000000000051110
-t1391630093
-s332048
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-c0000000052F2970D0000000000017E90
-t1391630093
-s97936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-c0000000052F2970D00000000001BA370
-t1391630093
-s1811312
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-c0000000052F2970D000000000001EFF0
-t1391630093
-s126960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-c0000000052F2970D000000000002FA40
-t1391630093
-s195136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-c0000000052F2970D000000000008B3E0
-t1391630093
-s570336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-c0000000052F2970D00000000000B5FC0
-t1391630093
-s745408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-c0000000052F2970D0000000000078620
-t1391630093
-s493088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-c0000000052F2970D0000000000060810
-t1391630093
-s395280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-c0000000052F2970D00000000000B6B40
-t1391630093
-s748352
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-c0000000052F2970D0000000000039D00
-t1391630093
-s236800
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-c0000000052F2970D000000000003E940
-t1391630093
-s256320
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-c0000000052F2970D000000000002CF80
-t1391630093
-s184192
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-c0000000052F2970D000000000001EB50
-t1391630093
-s125776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-c0000000052F2970D000000000001EDE0
-t1391630093
-s126432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-c0000000052F2970D00000000000213C0
-t1391630093
-s136128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-c0000000052F2970D00000000000ADAC0
-t1391630093
-s711360
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c0000000052F297340000000000000AC9
-t1391630132
-s2761
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-c0000000052F297340000000000005004
-t1391630132
-s20484
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard
-c0000000052F5E5A90000000000000E92
-t1391846825
-s3730
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets
-c0000000052F5E5580000000000000088
-t1391846744
-s136
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.h
-c0000000052F5E5580000000000000127
-t1391846744
-s295
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m
-c0000000052F5E55800000000000007EB
-t1391846744
-s2027
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.h
-c0000000052F5E55800000000000000E9
-t1391846744
-s233
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m
-c0000000052F6894B0000000000000601
-t1391888715
-s1537
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib
-c0000000052F5F18E0000000000000898
-t1391849870
-s2200
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.h
-c0000000052F69FB7000000000000013D
-t1391894455
-s317
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m
-c0000000052F6A6E90000000000001354
-t1391896297
-s4948
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist
-c0000000052F6A3E900000000000004CA
-t1391895529
-s1226
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Prefix.pch
-c0000000052F5E5580000000000000158
-t1391846744
-s344
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/en.lproj/InfoPlist.strings
-c0000000052F5E558000000000000002D
-t1391846744
-s45
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m
-c0000000052F5E5580000000000000163
-t1391846744
-s355
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent
-t1391895543
-s430
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o
-t1391895542
-s69304
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o
-t1391895542
-s48696
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o
-t1391896310
-s60304
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MultipleWindow.LinkFileList
-c0000000052F6A3F600000000000002C1
-t1391895542
-s705
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o
-t1391895542
-s4280
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_dependencies.txt
-t1391895543
-s459
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_generated_info.plist
-t1391895543
-s525
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch
-t1391895542
-s110268
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-t1391896310
-s442
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM
-t1391895926
-s102
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Base.lproj/Main.storyboardc
-t1391895543
-s170
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist
-t1391895543
-s1315
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MWViewController.nib
-t1391895543
-s2176
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow
-t1391896310
-s59940
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/PkgInfo
-t1391895543
-s8
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist
-t1391895542
-s150
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision
-t1391895543
-s27282
-
-N/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings
-t1391895542
-s42
-
-N/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision
-c0000000052D9A4D70000000000006A92
-t1389995223
-s27282
-
-CBuild AST from /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m
-r0
-
-CBuild AST from /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m
-r0
-
-CBuild AST from /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m
-r0
-
-CBuild AST from /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies21e96376dea6b841^516a6f76dea6b841^---0#1#1#--18"Check dependencies36"CE715740-4E88-49A5-9A00-0FA6D0E489F9-
-
-CCodeSign /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-s413589110.572182
-e413589110.760450
-r1
-xCodeSign
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CodeSign builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app79"CodeSign builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.appd68e9276dea6b841^60adc276dea6b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/0000000000000000^1144"CodeSign builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: jeremy Templier (M6RVMQMU4U)" and provisioning profile "iOS Team Provisioning Profile: *" (2F4E648F-D639-4E22-9C0A-9FCE8590FE97)    codesign --force --sign 07B4C78A0EA5E9F9A7652BECD97FE830C3E594B3 --resource-rules=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist --entitlements /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app36"0CB27868-8285-4683-92BF-A763E7E092EE-
-b1A94A950-278B-4F44-BA23-3775AF253A72
-
-CCompileAssetCatalog /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets
-s413588342.447111
-e413588343.206878
-r1
-xCompileAssetCatalog
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/LaunchImage-700-568h@2x.png
-o/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Assets.car
-o/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CompileAssetCatalog builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app MultipleWindow/Images.xcassets121"CompileAssetCatalog builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app MultipleWindow/Images.xcassets27887276dba6b841^6af63477dba6b841^-487"/* com.apple.actool.compilation-results *//Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/LaunchImage-700-568h@2x.png/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Assets.car/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets/0000000000000000^1215"CompileAssetCatalog builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app MultipleWindow/Images.xcassets    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Images.xcassets36"DB0046E1-0AD2-40E1-91CD-EBB519BA565B-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413588342.320084
-e413588342.382997
-r1
-xCompileC
-xbuilds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m244"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o MultipleWindow/MWAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler17105276dba6b841^d00c6276dba6b841^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m0000000000000000^4017"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o MultipleWindow/MWAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-generated-files.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-own-target-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-all-target-headers.hmap -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-project-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources/arm64 -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.d --serialize-diagnostics /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.dia -c /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.m -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o36"29A8FE8B-70DA-4546-8197-1161EB432840-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413588342.320140
-e413588342.381080
-r1
-xCompileC
-xbuilds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.h
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m250"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o MultipleWindow/MWViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler17105276dba6b841^eb8e6176dba6b841^---0#0#1#-19%DVTDocumentLocation2@92"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m0000000000000000^4035"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o MultipleWindow/MWViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-generated-files.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-own-target-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-all-target-headers.hmap -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-project-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources/arm64 -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.d --serialize-diagnostics /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.dia -c /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.m -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o36"2D91EA56-30AA-41AE-A90F-524E8134FFD3-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413589110.430270
-e413589110.493563
-r1
-xCompileC
-xbuilds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m234"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o MultipleWindow/MWWindow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8a3b6e76dea6b841^685a7e76dea6b841^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m0000000000000000^3987"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o MultipleWindow/MWWindow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-generated-files.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-own-target-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-all-target-headers.hmap -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-project-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources/arm64 -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.d --serialize-diagnostics /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.dia -c /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWWindow.m -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o36"8B08D4D8-5797-481F-8843-3288CB326EA6-
-b1A94A950-278B-4F44-BA23-3775AF253A72
-
-CCompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413588342.320146
-e413588342.353041
-r1
-xCompileC
-xbuilds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m226"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o MultipleWindow/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler45115276dba6b841^d0615a76dba6b841^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m0000000000000000^3963"CompileC builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o MultipleWindow/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-generated-files.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-own-target-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-all-target-headers.hmap -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-project-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources/arm64 -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.dia -c /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/main.m -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o36"603060F2-0569-4150-9714-11637AF08B0D-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCompileStoryboard /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard
-s413588342.447135
-e413588343.504980
-r1
-xCompileStoryboard
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CompileStoryboard MultipleWindow/Base.lproj/Main.storyboard59"CompileStoryboard MultipleWindow/Base.lproj/Main.storyboard77857276dba6b841^d4468177dba6b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard0000000000000000^835"CompileStoryboard MultipleWindow/Base.lproj/Main.storyboard    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Base.lproj/Main.storyboardc /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/Base.lproj/Main.storyboard36"426DFAF9-5C34-4585-B0B4-A569E935D1F5-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCompileXIB /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib
-s413588342.447111
-e413588343.174368
-r1
-xCompileXIB
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib46"CompileXIB MultipleWindow/MWViewController.xibf9867276dba6b841^f9a32c77dba6b841^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib0000000000000000^759"CompileXIB MultipleWindow/MWViewController.xib    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MWViewController.nib /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MWViewController.xib36"AF7ADC2E-8821-4F37-9EDA-1CADFC5E730C-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCopyStringsFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings MultipleWindow/en.lproj/InfoPlist.strings
-s413588342.447090
-e413588342.449697
-r1
-xCopyStringsFile
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings
-xMultipleWindow/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MultipleWindow/en.lproj/InfoPlist.strings155"CopyStringsFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings MultipleWindow/en.lproj/InfoPlist.stringsf1847276dba6b841^cd1f7376dba6b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/en.lproj/InfoPlist.strings0000000000000000^652"CopyStringsFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj/InfoPlist.strings MultipleWindow/en.lproj/InfoPlist.strings    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/en.lproj -- MultipleWindow/en.lproj/InfoPlist.strings36"7D74424D-A9B2-4C02-B064-728C262A7610-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist
-s413588342.257810
-e413588342.260064
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xbuilds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist223"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist0a0f4276dba6b841^15ca4276dba6b841^---0#0#1#-19%DVTDocumentLocation2@149"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist0038ec8fdfffdf42^810"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app36"A235E909-55F8-4ACD-8A81-AA509CB3221A-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CGenerateDSYMFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow
-s413589110.542454
-e413589110.559713
-r1
-xGenerateDSYMFile
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Generate /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM178"GenerateDSYMFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow92eb8a76dea6b841^664a8f76dea6b841^---0#0#1#-19%DVTDocumentLocation2@135"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM/0000000000000000^768"GenerateDSYMFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app.dSYM36"A0D71D80-01BB-43E8-AA9F-CF48AB83976B-
-b1A94A950-278B-4F44-BA23-3775AF253A72
-
-CLd /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow normal arm64
-s413589110.502942
-e413589110.530896
-r1
-xLd
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow
-xnormal
-xarm64
-d/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MultipleWindow.LinkFileList
-d/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWAppDelegate.o
-d/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWWindow.o
-d/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MWViewController.o
-d/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow101"Ld builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow normal arm6496d18076dea6b841^75e98776dea6b841^---0#0#1#--1496"Ld builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow normal arm64    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos -filelist /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MultipleWindow.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/Objects-normal/arm64/MultipleWindow_dependency_info.dat -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/MultipleWindow36"3FCD0D25-58DD-4C47-850E-E8176EEBC8FA-
-b1A94A950-278B-4F44-BA23-3775AF253A72
-
-CProcessInfoPlistFile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist
-s413588343.513721
-e413588343.516844
-r1
-xProcessInfoPlistFile
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist
-x/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Process /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist143"ProcessInfoPlistFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist MultipleWindow/MultipleWindow-Info.plist68938377dba6b841^7a508477dba6b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist0000000000000000^1164"ProcessInfoPlistFile builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist MultipleWindow/MultipleWindow-Info.plist    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Info.plist -genpkginfo /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/ResourceRules.plist -additionalcontentfile /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/assetcatalog_generated_info.plist -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/Info.plist36"C3C3C947-7AC5-4DC7-B5E5-5B942B1935B3-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CProcessPCH /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch MultipleWindow/MultipleWindow-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413588342.270269
-e413588342.311503
-r1
-xProcessPCH
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch
-xMultipleWindow/MultipleWindow-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile MultipleWindow/MultipleWindow-Prefix.pch262"ProcessPCH builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch MultipleWindow/MultipleWindow-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd4464576dba6b841^1fbf4f76dba6b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Prefix.pch0000000000000000^3876"ProcessPCH builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch MultipleWindow/MultipleWindow-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Documents/iOS/MultipleWindow/builds/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-generated-files.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-own-target-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-all-target-headers.hmap -iquote /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow-project-headers.hmap -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources/arm64 -I/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/DerivedSources -F/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.d -c /Users/Jeremy/Documents/iOS/MultipleWindow/MultipleWindow/MultipleWindow-Prefix.pch -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/PrecompiledHeaders/MultipleWindow-Prefix-hhnibqlzoycrzzhcsgotqdrzwyok/MultipleWindow-Prefix.pch.pch36"BC350F2A-0FB8-4819-8FE2-5C73FA1175D0-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CProcessPCH /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Index/PrecompiledHeaders/MultipleWindow-Prefix-gwmhfzzabdoiadakcduwsnbaembv_ast/MultipleWindow-Prefix.pch.pch MultipleWindow/MultipleWindow-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent
-s413588343.565003
-e413588343.567821
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection264"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent264"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcentfbb29077dba6b841^925d9177dba6b841^---0#0#1#-19%DVTDocumentLocation2@178"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent0038ec8fdfffdf42^852"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Intermediates/MultipleWindow.build/Debug-iphoneos/MultipleWindow.build/MultipleWindow.xcent36"B8951B38-7A22-40D3-99EE-FD4F4674582F-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision
-s413588343.551818
-e413588343.555032
-r1
-xProcessProductPackaging
-x/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision
-x/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision230"ProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision11548d77dba6b841^2b178e77dba6b841^---0#0#1#-19%DVTDocumentLocation2@154"file://localhost/Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision0038ec8fdfffdf42^758"ProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision    cd /Users/Jeremy/Documents/iOS/MultipleWindow    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2F4E648F-D639-4E22-9C0A-9FCE8590FE97.mobileprovision -o /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app/embedded.mobileprovision36"7DBF4685-047D-49C1-B5A8-894CFFD3ED73-
-bDBA0002A-28C6-4B2B-A4CF-11A9E36D80A9
-
-CTouch /Users/Jeremy/Documents/iOS/MultipleWindow/builds/MultipleWindow/Build/Products/Debug-iphoneos/MultipleWindow.app
-r0
-
