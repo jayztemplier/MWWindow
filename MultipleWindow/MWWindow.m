@@ -9,7 +9,7 @@
 #import "MWWindow.h"
 
 #define kRecuriveAnimationEnabled NO
-#define kWindowHeaderHeight 50
+#define kWindowHeaderHeight 80
 
 @interface MWWindow() {
     CGPoint _origin;
@@ -144,7 +144,7 @@
     UIWindow *nextWindow = self.nextWindow;
     if (nextWindow) {
         CGFloat diffY = fabs(CGRectGetMinY(nextWindow.frame) - CGRectGetMinY(self.frame));
-        if (diffY != kWindowHeaderHeight) {
+        if (diffY < kWindowHeaderHeight) {
             nextWindow.transform = CGAffineTransformMakeTranslation(0, kWindowHeaderHeight-diffY);
         }
     }
@@ -154,7 +154,7 @@
 {
     UIWindow *nextWindow = self.nextWindow;
     if (nextWindow) {
-        nextWindow.transform = CGAffineTransformMakeTranslation(0, -kWindowHeaderHeight);
+        nextWindow.transform = CGAffineTransformMakeTranslation(0, kWindowHeaderHeight);
     }
 }
 @end
