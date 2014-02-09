@@ -4,7 +4,9 @@ Lightweight library that allows you to manage multiple windows in an iOS applica
 
 The demo application shows how to reproduce a transition like the Paper Facebook application.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/LIE6YPZ7sgs" frameborder="0" allowfullscreen></iframe>
+<a href="http://youtu.be/LIE6YPZ7sgs"> Preview video </a>
+
+<img src="https://github.com/jayztemplier/MWWindow/blob/master/screenshot.png"/>
 
 ## Installation
 Simply add the ***library*** directory into your Xcode project.
