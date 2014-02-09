@@ -6,7 +6,7 @@ The demo application shows how to reproduce a transition like the Paper Facebook
 
 <a href="http://youtu.be/LIE6YPZ7sgs"> Preview video </a>
 
-<img src="https://github.com/jayztemplier/MWWindow/blob/master/screenshot.png"/>
+![Screenshot of the library](https://github.com/jayztemplier/MWWindow/blob/master/screenshot.png)
 
 ## Installation
 Simply add the ***library*** directory into your Xcode project.
