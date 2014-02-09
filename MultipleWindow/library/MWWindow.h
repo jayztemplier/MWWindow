@@ -1,5 +1,5 @@
 //
-//  MWAppDelegate.h
+//  MWWindow.h
 //  MultipleWindow
 //
 //  Created by Jeremy Templier on 2/8/14.
@@ -25,8 +25,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MWAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MWWindow : UIWindow
+@property (nonatomic, readonly) UIWindow *superWindow;
+@property (nonatomic, readonly) UIWindow *nextWindow;
 @end

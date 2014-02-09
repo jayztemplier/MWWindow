@@ -21,8 +21,10 @@
 		3F3042DC18A61CD900489E5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3042BE18A61CD800489E5D /* UIKit.framework */; };
 		3F3042E418A61CD900489E5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042E218A61CD900489E5D /* InfoPlist.strings */; };
 		3F3042E618A61CD900489E5D /* MultipleWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3042E518A61CD900489E5D /* MultipleWindowTests.m */; };
-		3F3042F118A61EFE00489E5D /* MWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3042F018A61EFE00489E5D /* MWWindow.m */; };
 		3F3042F618A628BA00489E5D /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042F418A628BA00489E5D /* MWViewController.xib */; };
+		3F3042FC18A6FB1C00489E5D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042FA18A6FB1C00489E5D /* LICENSE */; };
+		3F3042FD18A6FB1C00489E5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042FB18A6FB1C00489E5D /* README.md */; };
+		3F30430118A6FCCD00489E5D /* MWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30430018A6FCCD00489E5D /* MWWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +57,11 @@
 		3F3042E118A61CD900489E5D /* MultipleWindowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleWindowTests-Info.plist"; sourceTree = "<group>"; };
 		3F3042E318A61CD900489E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F3042E518A61CD900489E5D /* MultipleWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleWindowTests.m; sourceTree = "<group>"; };
-		3F3042EF18A61EFE00489E5D /* MWWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWWindow.h; sourceTree = "<group>"; };
-		3F3042F018A61EFE00489E5D /* MWWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWWindow.m; sourceTree = "<group>"; };
 		3F3042F418A628BA00489E5D /* MWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWViewController.xib; sourceTree = "<group>"; };
+		3F3042FA18A6FB1C00489E5D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F3042FB18A6FB1C00489E5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3F3042FF18A6FCCD00489E5D /* MWWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWWindow.h; sourceTree = "<group>"; };
+		3F30430018A6FCCD00489E5D /* MWWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				3F3042DF18A61CD900489E5D /* MultipleWindowTests */,
 				3F3042B918A61CD800489E5D /* Frameworks */,
 				3F3042B818A61CD800489E5D /* Products */,
+				3F3042FA18A6FB1C00489E5D /* LICENSE */,
+				3F3042FB18A6FB1C00489E5D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +123,7 @@
 		3F3042C018A61CD800489E5D /* MultipleWindow */ = {
 			isa = PBXGroup;
 			children = (
+				3F3042FE18A6FCCD00489E5D /* library */,
 				3F3042C918A61CD800489E5D /* MWAppDelegate.h */,
 				3F3042CA18A61CD800489E5D /* MWAppDelegate.m */,
 				3F3042CC18A61CD800489E5D /* Main.storyboard */,
@@ -124,8 +131,6 @@
 				3F3042D018A61CD800489E5D /* MWViewController.m */,
 				3F3042D218A61CD800489E5D /* Images.xcassets */,
 				3F3042C118A61CD800489E5D /* Supporting Files */,
-				3F3042EF18A61EFE00489E5D /* MWWindow.h */,
-				3F3042F018A61EFE00489E5D /* MWWindow.m */,
 				3F3042F418A628BA00489E5D /* MWViewController.xib */,
 			);
 			path = MultipleWindow;
@@ -158,6 +163,15 @@
 				3F3042E218A61CD900489E5D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3042FE18A6FCCD00489E5D /* library */ = {
+			isa = PBXGroup;
+			children = (
+				3F3042FF18A6FCCD00489E5D /* MWWindow.h */,
+				3F30430018A6FCCD00489E5D /* MWWindow.m */,
+			);
+			path = library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3042FD18A6FB1C00489E5D /* README.md in Resources */,
+				3F3042FC18A6FB1C00489E5D /* LICENSE in Resources */,
 				3F3042F618A628BA00489E5D /* MWViewController.xib in Resources */,
 				3F3042D318A61CD800489E5D /* Images.xcassets in Resources */,
 				3F3042C518A61CD800489E5D /* InfoPlist.strings in Resources */,
@@ -263,9 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3042CB18A61CD800489E5D /* MWAppDelegate.m in Sources */,
-				3F3042F118A61EFE00489E5D /* MWWindow.m in Sources */,
 				3F3042D118A61CD800489E5D /* MWViewController.m in Sources */,
 				3F3042C718A61CD800489E5D /* main.m in Sources */,
+				3F30430118A6FCCD00489E5D /* MWWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
