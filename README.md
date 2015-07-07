@@ -1,5 +1,7 @@
 ## MWWindow
 
+<a href='https://app.ship.io/dashboard#/jobs/8748/history' target='_blank'><img src='https://app.ship.io/jobs/cStjGWygH5ud4cmy/build_status.png' style='width:160px' /></a>
+
 Lightweight library that allows you to manage multiple windows in an iOS application and animate the transitions.
 
 The demo application shows how to reproduce a transition like the Paper Facebook application.
@@ -14,7 +16,7 @@ Simply add the ***library*** directory into your Xcode project.
 To add a window to the screen:
 
 	#import "MWWindow.h"
-   	
+
 	//where you want to add the window
 	_nextWindow = [[MWWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 	_nextWindow.windowLevel = UIWindowLevelStatusBar;
