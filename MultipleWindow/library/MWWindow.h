@@ -25,7 +25,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MWWindow : UIWindow
+#define kWindowHeaderHeight 80
+
+@interface MWWindow : UIWindow <UIGestureRecognizerDelegate>
+@property (nonatomic, assign) BOOL dismissWhenOnTheBottomOfTheScreen;
 @property (nonatomic, readonly) UIWindow *superWindow;
 @property (nonatomic, readonly) UIWindow *nextWindow;
+@property (nonatomic, readonly) UIPanGestureRecognizer *panGesture;
+@property (nonatomic, readonly) UITapGestureRecognizer *tapGesture;
+@property (nonatomic, assign) BOOL tapToCloseEnabled;
+- (void)dismissWindowAnimated:(BOOL)animated completion:(void (^)(void))completion;
+- (void)presentWindowAnimated:(BOOL)animated completion:(void (^)(void))completion;
+- (void)showOrClose;
+- (void)setPanGestureEnabled:(BOOL)enabled;
++ (void)dismissAllMWWindows;
 @end
