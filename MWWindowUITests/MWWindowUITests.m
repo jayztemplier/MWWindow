@@ -47,6 +47,7 @@
     XCUIElement *window_3 = [app.windows elementAtIndex:app.windows.count-1];
     [window_3 swipeDown];
     [window_2 swipeDown];
+    [window_2 tap];
 }
 
 @end
