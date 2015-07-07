@@ -58,7 +58,9 @@
         [_nextWindow removeFromSuperview];
     }
     _nextWindow = [[MWWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [_nextWindow setAccessibilityIdentifier:@"window"];
     [_nextWindow setBackgroundColor:[self randomColor]];
+    _nextWindow.tapToCloseEnabled = YES;
     _nextWindow.windowLevel = UIWindowLevelStatusBar;
     MWViewController *vc = [[MWViewController alloc] initWithNibName:@"MWViewController" bundle:nil];
     vc.view.backgroundColor = [UIColor clearColor];
