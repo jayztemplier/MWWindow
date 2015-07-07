@@ -25,6 +25,7 @@
 		3F3042FC18A6FB1C00489E5D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042FA18A6FB1C00489E5D /* LICENSE */; };
 		3F3042FD18A6FB1C00489E5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3042FB18A6FB1C00489E5D /* README.md */; };
 		3F30430118A6FCCD00489E5D /* MWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30430018A6FCCD00489E5D /* MWWindow.m */; };
+		3F60EC301B4C44750094B743 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F60EC2F1B4C44750094B743 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		3F3042FB18A6FB1C00489E5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3F3042FF18A6FCCD00489E5D /* MWWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWWindow.h; sourceTree = "<group>"; };
 		3F30430018A6FCCD00489E5D /* MWWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWWindow.m; sourceTree = "<group>"; };
+		3F60EC2F1B4C44750094B743 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				3F3042D218A61CD800489E5D /* Images.xcassets */,
 				3F3042C118A61CD800489E5D /* Supporting Files */,
 				3F3042F418A628BA00489E5D /* MWViewController.xib */,
+				3F60EC2F1B4C44750094B743 /* Launch Screen.storyboard */,
 			);
 			path = MultipleWindow;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				3F3042D318A61CD800489E5D /* Images.xcassets in Resources */,
 				3F3042C518A61CD800489E5D /* InfoPlist.strings in Resources */,
 				3F3042CE18A61CD800489E5D /* Main.storyboard in Resources */,
+				3F60EC301B4C44750094B743 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				3F3042EB18A61CD900489E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3042EC18A61CD900489E5D /* Build configuration list for PBXNativeTarget "MultipleWindowTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				3F3042EE18A61CD900489E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
